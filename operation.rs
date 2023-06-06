@@ -58,3 +58,28 @@ fn main() {
     println!("Bitwise Shift Left: {:b}", bitwise_shift_left);
     println!("Bitwise Shift Right: {:b}", bitwise_shift_right);
 }
+
+
+/* Output
+Arithmetic Operations:
+Sum: 15
+Difference: 5
+Product: 50
+Quotient: 2
+Remainder: 0
+Comparison Operations:
+Greater Than: true
+Less Than or Equal: true
+Equal To: true
+Not Equal To: true
+Logical Operations:
+Logical AND: false
+Logical OR: true
+Logical NOT: false
+Bitwise Operations:
+Bitwise AND: 8
+Bitwise OR: 14
+Bitwise XOR: 6
+Bitwise Shift Left: 40
+Bitwise Shift Right: 6
+*/
