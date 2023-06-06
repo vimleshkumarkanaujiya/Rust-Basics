@@ -25,3 +25,14 @@ fn main() {
     println!("Character: {}", char_value);
     println!("String: {}", string_value);
 }
+
+
+/* Output
+Integer: 10
+Unsigned Integer: 20
+Float: 3.14
+Double: 3.14159265359
+Boolean: true
+Character: A
+String: Hello, Rust!
+*/
