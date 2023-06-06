@@ -11,10 +11,25 @@ I would prefer you to use : <i>Visual Studio Code (Linux, Mac, Windows), Geany, 
 
 To compile, use the following command
 
-<b>rustc</b> is a compiler while "main.rs" is a file name. <br>
+<b>rustc</b> is a compiler while "main.rs" is the name of file. <br>
 
 Here <b>.rs</b> is the file extension of Rust.
 
 ```bash
   $ rustc main.rs
 ```
+After the compilation, it will produce the executable file.
+
+
+## How to run Rust ?
+
+To run, use the executable file as
+
+```bash
+  $ ./main
+```
+
+## Output
+Hello World
+
+## The above output is the result of main.rs of this repository.
