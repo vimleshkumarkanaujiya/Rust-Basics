@@ -15,9 +15,11 @@ To compile, use the following command
 
 Here <b>.rs</b> is the file extension of Rust.
 
+
 ```bash
   $ rustc main.rs
 ```
+
 After the compilation, it will produce the executable file.
 
 
@@ -31,5 +33,6 @@ To run, use the executable file as
 
 ## Output
 Hello World
+
 
 ## The above output is the result of main.rs of this repository.
