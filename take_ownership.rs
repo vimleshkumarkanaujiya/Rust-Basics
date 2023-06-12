@@ -29,3 +29,11 @@ fn borrow(some_string: &String) {
     println!("I borrowed: {}", some_string);
     // We can only read the borrowed string; modifying it would result in a compilation error.
 }
+
+
+/*
+In this example, we start by creating a String called original and pass its ownership to the take_ownership function. Inside the function, we can manipulate the string as needed. However, once the function call is complete, the ownership of original is transferred, and trying to access it again would result in a compilation error.
+
+Next, we create a new String called borrowed and pass a reference to it (&borrowed) to the borrow function. This allows the borrow function to access and read the string without taking ownership. The borrowed string remains accessible even after the function call, demonstrating how borrowing works in Rust.
+
+Keep in mind that this is a basic example to illustrate the concept of ownership and borrowing in Rust. In real-world scenarios, you would often encounter more complex ownership relationships and patterns.
