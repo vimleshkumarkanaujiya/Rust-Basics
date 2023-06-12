@@ -37,3 +37,4 @@ In this example, we start by creating a String called original and pass its owne
 Next, we create a new String called borrowed and pass a reference to it (&borrowed) to the borrow function. This allows the borrow function to access and read the string without taking ownership. The borrowed string remains accessible even after the function call, demonstrating how borrowing works in Rust.
 
 Keep in mind that this is a basic example to illustrate the concept of ownership and borrowing in Rust. In real-world scenarios, you would often encounter more complex ownership relationships and patterns.
+*/
